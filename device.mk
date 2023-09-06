@@ -188,6 +188,17 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.4.vendor
+    libdrm.vendor
+
+
+# DT2W Services
+PRODUCT_PACKAGES += \
+    DT2WServiceSM6375
+
+# Fastbootd
+PRODUCT_PACKAGES += \
+    android.hardware.fastboot@1.1-impl-mock \
+    fastbootd
 
 # Filesystem
 PRODUCT_PACKAGES += \
