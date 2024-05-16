@@ -21,3 +21,6 @@ PRODUCT_BRAND := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+
+#Project Awaken flags
+TARGET_BOOT_ANIMATION_RES := 1080
