@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/genesis_gauguin.mk
+    $(LOCAL_DIR)/awaken_gauguin.mk
 
 COMMON_LUNCH_CHOICES := \
-    genesis_gauguin-user \
-    genesis_gauguin-userdebug \
-    genesis_gauguin-eng
+    awaken_gauguin-user \
+    awaken_gauguin-userdebug \
+    awaken_gauguin-eng

@@ -11,11 +11,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from gauguin device
 $(call inherit-product, device/xiaomi/gauguin/device.mk)
 
-# Inherit some common GenesisOS stuff.
-$(call inherit-product, vendor/genesis/config/common_full_phone.mk)
+# Inherit some common Project Awaken stuff.
+$(call inherit-product, vendor/awaken/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := genesis_gauguin
+PRODUCT_NAME := awaken_gauguin
 PRODUCT_DEVICE := gauguin
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi
