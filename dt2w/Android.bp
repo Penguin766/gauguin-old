@@ -15,7 +15,7 @@
  */
 
 android_app {
-    name: "DT2WServicegauguin",
+    name: "DT2WServiceSM6375",
 
     srcs: ["src/**/*.java"],
     resource_dirs: ["res"],
@@ -29,13 +29,13 @@ android_app {
     },
 
     required: [
-        "privapp-permissions_org.lineageos.dt2w.gauguin"
+        "privapp-permissions_org.lineageos.dt2w.sm6375"
     ]
 }
 
 prebuilt_etc {
-    name: "privapp-permissions_org.lineageos.dt2w.gauguin",
+    name: "privapp-permissions_org.lineageos.dt2w.sm6375",
     sub_dir: "permissions",
-    src: "privapp-permissions_org.lineageos.dt2w.gauguin.xml",
+    src: "privapp-permissions_org.lineageos.dt2w.sm6375.xml",
     filename_from_src: true,
 }
