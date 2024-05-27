@@ -190,10 +190,9 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.4.vendor
     libdrm.vendor
 
-
 # DT2W Services
 PRODUCT_PACKAGES += \
-    DT2WServiceSM6375
+    DT2WServicegauguin
 
 # Fastbootd
 PRODUCT_PACKAGES += \
