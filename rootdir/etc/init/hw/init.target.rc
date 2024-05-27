@@ -263,9 +263,3 @@ on property:vendor.camera.bokeh.disable=1
 
 on property:vendor.camera.bokeh.disable=0
     setprop persist.vendor.camera.bokeh.disable 0
-
-on property:persist.sys.sm6375.dt2w=0
-    exec /system/bin/sendevent /dev/input/event4 0 1 4
-
-on property:persist.sys.sm6375.dt2w=1
-    exec /system/bin/sendevent /dev/input/event4 0 1 5
